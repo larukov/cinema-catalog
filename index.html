@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel — каталог киновселенной</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ШАПКА (Flexbox) -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <span class="logo__mark">MARVEL</span>
+        <span class="logo__text">Киновселенная</span>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon" id="themeIcon">🌙</span>
+        <span class="theme-toggle__text" id="themeText">Тёмная тема</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- БАННЕР -->
+  <section class="banner">
+    <img class="banner__img" src="img/banner.jpg" alt="Косплееры Мстителей">
+    <div class="banner__overlay">
+      <h1 class="banner__title">Marvel Cinematic Universe</h1>
+      <p class="banner__subtitle">Герои, фильмы и легенды вселенной Marvel</p>
+      <a class="banner__btn" href="#catalog">Смотреть каталог</a>
+    </div>
+  </section>
+
+  <main class="container" id="catalog">
+
+    <h2 class="section-title">Герои вселенной</h2>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card__media">
+          <img src="img/iron-man.jpg" alt="Железный человек">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Железный человек</h3>
+          <p class="card__text">Тони Старк — гений, миллиардер и первый Мститель, чей костюм стал символом Marvel.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="img/captain-america.jpg" alt="Капитан Америка">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Капитан Америка</h3>
+          <p class="card__text">Стив Роджерс — суперсолдат и живой символ чести, защитник мира от Чёрного Ока.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="img/thor.jpg" alt="Тор">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Тор</h3>
+          <p class="card__text">Бог молнии из Асгарда, хранитель Мьёльнира и защитник девяти миров.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="img/spider-man.jpg" alt="Человек-паук">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Человек-паук</h3>
+          <p class="card__text">Питер Паркер — подросток из Нью-Йорка, который носит паутину и правосудие.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="img/hulk.jpg" alt="Халк">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Халк</h3>
+          <p class="card__text">Брюс Бэннер — учёный, который при гневе превращается в зелёного титана силы.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="img/black-widow.jpg" alt="Чёрная Вдова">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Чёрная Вдова</h3>
+          <p class="card__text">Наташа Романофф — мастер боевых искусств, шпионка и одна из ключевых фигур «Щита».</p>
+        </div>
+      </article>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <h3 class="footer__title">Контакты</h3>
+        <p>Email: <a href="mailto:student@example.com">student@example.com</a></p>
+        <p>Телефон: <a href="tel:+70000000000">+7 (000) 000-00-00</a></p>
+        <p>GitHub: <a href="https://github.com/" target="_blank" rel="noopener">my-profile</a></p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">О проекте</h3>
+        <p>Учебный сайт-каталог киновселенной Marvel.</p>
+        <p>Сделано на чистом HTML + CSS + JavaScript.</p>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© 2026 Каталог Marvel. Учебная работа.</span>
+      <span>Фото: Wikimedia Commons (CC BY-SA)</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
